@@ -19,9 +19,9 @@ function Avatar (prop1) {
   );
 }
 export default function Profile() {
-  const minIdxLim = 0;
-  let [index, setIndex] = useState(minIdxLim);
-  const hidOpacity ='1', imageSize =412, 
+  const minIdxLim = 0,
+  [index, setIndex] = useState(minIdxLim),
+  hidOpacity ='1', imageSize =412, 
   gArray = [
       {img:appl,name:"APPLE"},
       {img:carrt,name:"CARROT"},
